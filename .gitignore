@@ -1,3 +1,62 @@
+checkpoints
+ckpts
+resume_ckpts
+*.pt
+.venv
+logs
+.vscode/
+src/cifar100_results/
+*.jpg
+.conda/
+.DS_Store
+cifar100_results/
+data/
+metrics/
+!src/metrics/
+plots/
+out_txts/
+out_weighted_train/
+out_standard_train/
+out_coresets_train/
+outs/
+outs_old/
+outs_*
+
+exe_ks_computations
+exe_large_coresets
+metrics_backup
+metrics_multiple_runs
+
+
+# plot_images.py
+coresets_plots.py
+coresets_large_plots.py
+mock.py
+plot_mem_flat_forget_comparison.py
+random_file.py
+plot_bar_proxies_comparison.py
+plot_correlation_runs.py
+plot_hist.py
+coresets_cross_archs_plots.py
+compute_final_samis.py
+plot_correlation_over_epochs_and_seeds.py
+
+coresets_large_plots_cross_archs.py
+coresets_plots_cross_archs.py
+
+dwn/
+download_pretrained.py
+
+ntks_v
+ntk_velocity_plots.py
+
+print_mem_stats.py
+
+hessian_eigenvalues/
+eigenvalues_plots.py
+hessian_eigenvalues_trian_on_all_and_compute_on_subset
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -106,10 +165,8 @@ ipython_config.py
 #pdm.lock
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
 #   in version control.
-#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+#   https://pdm.fming.dev/#use-with-ide
 .pdm.toml
-.pdm-python
-.pdm-build/
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -160,3 +217,4 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+.DS_Store
